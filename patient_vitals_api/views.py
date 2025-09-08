@@ -11,7 +11,7 @@ import joblib
 import random
 
 # Optional: Redis connection (configure as per your setup)
-redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)  # Adjust credentials
+# redis_client = redis.StrictRedis(host='localhost', port=6379, db=0)  # Adjust credentials
 
 class VitalsUploadView(APIView):
     def post(self, request):
